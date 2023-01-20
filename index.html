@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bike Zone</title>
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/a98013c384.js" crossorigin="anonymous"></script>
     <!-- BS CSS  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
@@ -75,7 +77,7 @@
         <div class="container justify-content-center">
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100 rounded-4">
                 <img class="p-3" src="images/bike-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fs-3 fw-bold">Ducati XDIAVEL S-73</h5>
@@ -85,7 +87,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100 rounded-4">
                 <img class="p-3" src="images/bike-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fs-3 fw-bold">Motorcycles & Scooters</h5>
@@ -95,7 +97,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100 rounded-4">
                 <img class="p-3" src="images/bike-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fs-3 fw-bold">2021 Honda CBR500R</h5>
@@ -107,7 +109,143 @@
           </div>
         </div>
       </section>
+      <!-- Happy Clients says Section  -->
+      <section style="margin-bottom: 150px;" >
+        <h2 class="fs-1 fw-bold text-center mb-5">Happy <span class="bz-text-color">Happy Clients says</span> </h2>
+        <div class="container justify-content-center">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img class="w-25 mx-auto pt-4" src="images/user-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                 <p class="text-warning text-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                 </p>
+                 <p class="text-primary text-center">Regina Miles</p>
+                 <p class="text-center fw-bolder">Bankar</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img class="w-25 mx-auto pt-4" src="images/user-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                  <p class="text-warning text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <p class="text-primary text-center">Lufica Juchi</p>
+                  <p class="text-center fw-bolder">Programmer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img class="w-25 mx-auto pt-4" src="images/user-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                  <p class="text-warning text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <p class="text-primary text-center">Sara Taylor</p>
+                  <p class="text-center fw-bolder">Teacher</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently Asked Questions section  -->
+      <section style="margin-bottom: 100px;">
+        <h2 class="text-center fs-2 fw-bold" style="margin-bottom: 100px;">Frequently Asked <span class="bz-text-color">Questions</span> </h2>
+        <div class="d-flex flex-column d-sm-flex flex-sm-column d-md-flex flex-md-row d-lg-flex flex-lg-row d-xl-flex flex-xl-row d-xxl-flex flex-xxl-row justify-content-center gap-5 align-items-center p-2">
+          <div>
+            <img class="img-fluid" src="images/faq.png" alt="">
+          </div>
+          <div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What are the most important things I should know about riding a bike?
+              </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Safety First! Always obey the rules of the road. Obey all traffic <br> signals, signs, and laws. Get in the mindset of “driving” your <br> bike—not just “riding” your bike. This will help you be a more <br> focused and legally compliant bike rider. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How can I tell if my helmet is old and I need a new one?
+              </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Safety First! Always obey the rules of the road. Obey all traffic <br> signals, signs, and laws. Get in the mindset of “driving” your <br> bike—not just “riding” your bike. This will help you be a more <br> focused and legally compliant bike rider.
+                </div>
+              </div>
+            </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                My bike has been in storage is it safe to ride?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Safety First! Always obey the rules of the road. Obey all traffic <br> signals, signs, and laws. Get in the mindset of “driving” your <br> bike—not just “riding” your bike. This will help you be a more <br> focused and legally compliant bike rider.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What rules should I follow when riding my bike?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Safety First! Always obey the rules of the road. Obey all traffic <br> signals, signs, and laws. Get in the mindset of “driving” your <br> bike—not just “riding” your bike. This will help you be a more <br> focused and legally compliant bike rider.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Different between webdevelopment and app development?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Event design and event planning work hand in hand to deliver a <br> successful event.Events by Knight offer tailor made events. This <br> means we incorporate both event design and event planning to <br> create that perfect event.
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- Footer  -->
+    <footer class="">
+      
+    </footer>
 
     <!-- BS JS  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
