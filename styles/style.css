@@ -12,3 +12,7 @@
     background-color: #264653;
     color: #FFFFFF;
 }
+.bz-bike{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
