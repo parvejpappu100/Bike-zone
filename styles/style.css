@@ -8,6 +8,12 @@
     border: 0px;
     padding: 7px 10px 10px 10px;
 }
+.bz-btn-read{
+    padding: 10px 35px 30px 35px;
+    background-color: #FFFFFF;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
 .bz-header{
     background-color: #264653;
     color: #FFFFFF;
@@ -15,4 +21,8 @@
 .bz-bike{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+.bz-card-text{
+    color: #6C6C6C;
+    font-size: 16px;
 }
