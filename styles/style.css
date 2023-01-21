@@ -29,3 +29,11 @@
 .bz-text-color{
     color: #FD6E0A;
 }
+.bz-nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0%;
+}
+.bz-nav-item{
+    gap: 10px;
+}
